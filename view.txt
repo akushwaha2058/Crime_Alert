@@ -1,0 +1,2 @@
+CREATE VIEW viewemployee AS SELECT id,Name,Gender,dept_name from employee join department on employee.departmentid=department.departmentid;
+CREATE VIEW viewemployee AS SELECT id,Name,Gender,dept_name,department.departmentid from employee join department on employee.departmentid=department.departmentid

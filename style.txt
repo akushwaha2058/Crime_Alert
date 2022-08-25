@@ -69,9 +69,9 @@ section{
 
 .btn{
    display: inline-block;
-   background: var(--white);
+   background: var(--black);
    margin-top: 1rem;
-   color:var(--black);
+   color:var(--white);
    font-size: 1.7rem;
    padding:1rem 3rem;
    cursor: pointer;
@@ -124,7 +124,6 @@ section{
    display: none;
 }
 
-
 .home{
    padding:0;
 }
@@ -158,7 +157,7 @@ section{
 }
 
 .home .slide .content h3{
-   font-size: 3vw;
+   font-size: 6vw;
    color:var(--white);
    text-transform: uppercase;
    line-height: 1;
@@ -236,7 +235,7 @@ section{
 }
 
 .home-about .image img{
-   width: 90%;
+   width: 100%;
 }
 
 .home-about .content{
@@ -257,57 +256,56 @@ section{
    color:var(--black);
 }
 
-.home-login{
+.home-packages{
    background: var(--light-bg);
 }
 
-.home-login .box-container{
+.home-packages .box-container{
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
    gap: 2rem;
 }
 
-.home-login .box-container .box{
+.home-packages .box-container .box{
    border:var(--border);
    box-shadow: var(--box-shadow);
-   background: var(--light-white);
+   background: var(--white);
 }
 
-.home-login .box-container .box:hover .image img{
+.home-packages .box-container .box:hover .image img{
    transform: scale(1.1);
 }
 
-.home-login .box-container .box .image{
+.home-packages .box-container .box .image{
    height: 25rem;
    overflow: hidden;
 }
 
-.home-login .box-container .box .image img{
+.home-packages .box-container .box .image img{
    height: 100%;
    width: 100%;
    object-fit: cover;
    transition: .2s linear;
 }
 
-.home-login .box-container .box .content{
-   
+.home-packages .box-container .box .content{
    padding:2rem;
    text-align: center;
 }
 
-.home-login .box-container .box .content h3{
+.home-packages .box-container .box .content h3{
    font-size: 2.5rem;
    color:var(--black);
 }
 
-.home-login .box-container .box .content p{
+.home-packages .box-container .box .content p{
    font-size: 1.5rem;
    color:var(--light-black);
    line-height: 2;
    padding:1rem 0;
 }
 
-.home-login .load-more{
+.home-packages .load-more{
    text-align: center;
    margin-top: 2rem;
 }
